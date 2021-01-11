@@ -1,0 +1,31 @@
+.error-msg { // 错误提示
+  color: red;
+  text-align: center;
+  font-size: 18px;
+}
+
+.am-tab-bar { // 让NavBar固定在底部
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: inherit;
+}
+
+.fix-Top { // 让Header固定在顶部
+  z-index: 10; // 设定层级
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: 1.5em;
+  height: 40px; // 包裹内容
+}
+
+// 消息文本居右
+#chat-page .chat-me .am-list-extra {
+  flex-basis: auto; // 宽度包裹内容
+}
+
+#chat-page .chat-me .am-list-content {
+  padding-right: 15px;
+  text-align: right;
+}
